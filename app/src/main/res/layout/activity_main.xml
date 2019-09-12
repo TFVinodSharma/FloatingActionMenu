@@ -8,15 +8,18 @@
     <com.github.clans.fab.FloatingActionMenu
         android:id="@+id/material_design_android_floating_action_menu"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="140dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:paddingRight="10dp"
+        android:layout_marginEnd="20dp"
+        android:paddingRight="20dp"
         android:paddingBottom="10dp"
+        android:padding="20dp"
+
         android:elevation="14dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginRight="20dp"
         fab:menu_colorNormal="#FFFFFF"
         fab:menu_colorPressed="#FFFFFF"
         fab:menu_colorRipple="#99d4d4d4"
@@ -43,9 +46,8 @@
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/material_design_floating_action_menu_item2"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
-            android:scaleType="centerCrop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:src="@mipmap/ask1"
             fab:fab_colorNormal="#FFFFFF"
             fab:fab_colorPressed="#FFFFFF"
@@ -54,8 +56,8 @@
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/material_design_floating_action_menu_item3"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:src="@mipmap/phone1"
             fab:fab_colorNormal="#FFFFFF"
             fab:fab_colorPressed="#FFFFFF"
